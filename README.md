@@ -242,6 +242,8 @@ Built with [Qiskit](https://github.com/Qiskit/qiskit), [Qiskit Aer](https://gith
 
 Gowtham K (team lead), Pranav A S, Jaya Suriya T R.
 
+Built with AI assistance (Claude Code); design decisions, review and validation by the team.
+
 ## License
 
 Apache 2.0. See [LICENSE](LICENSE).

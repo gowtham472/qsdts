@@ -634,7 +634,8 @@ def slide10(s):
          "eavesdropper-triggered rerouting, demonstrated on the Tokyo QKD Network in 2010 "
          "[10]. The implementation, network layer, experiments and figures are our own work; "
          "no repository was copied or forked. Code, tests and a one-click Colab demo: "
-         "github.com/gowtham472/qsdts",
+         "github.com/gowtham472/qsdts. Built with AI assistance (Claude Code); design "
+         "decisions, review and validation by the team.",
          {}),
     ]], size=14.5, anchor="m", name="s10 ack text")
 
