@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.venv*/
+venv/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+
+# Experiment logs (results.json and the figures ARE committed)
+results/run.log
+results/*.prev.json
+results/_*.json
+
+# Presentation outputs and the organisers' template (not ours to redistribute)
+deck/*.pptx
+deck/*.pdf
+*.pptx
+
+# Video build (large, regenerable)
+videos/node_modules/
+videos/out/
+videos/.remotion/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/settings.local.json
+
+# Local presentation inputs
+deck/fonts/

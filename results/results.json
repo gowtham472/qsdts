@@ -1,0 +1,302 @@
+{
+  "e0_validation": {
+    "theory": 0.25,
+    "dl04_attack": {
+      "qber": 0.2527023780927216,
+      "bits": 16652,
+      "se": 0.0033675826509979283
+    },
+    "bb84_attack": {
+      "qber": 0.24803704449365815,
+      "bits": 4967
+    },
+    "dl04_clean": {
+      "qber": 0.0,
+      "bits": 3272,
+      "se": 5.528322276085582e-07
+    },
+    "dl04_noise_only": {
+      "qber": 0.0035721373288350863,
+      "bits": 5039,
+      "se": 0.0008404556976226693
+    },
+    "noise_theory": 0.005
+  },
+  "e1_efficiency": {
+    "dl04_per_qubit": 0.6746987951807227,
+    "dl04_per_channel_use": 0.38554216867469887,
+    "bb84_per_qubit": 0.3740375,
+    "bb84_per_channel_use": 0.3740375,
+    "note": "raw secure payload bits before error correction, which costs both equally"
+  },
+  "e2_detection": {
+    "rows": [
+      {
+        "eve": 0.0,
+        "mean": 0.004290017107950528,
+        "std": 0.007758113859126347,
+        "detect_rate": 0.0
+      },
+      {
+        "eve": 0.1,
+        "mean": 0.029147427821211793,
+        "std": 0.015200401500811223,
+        "detect_rate": 0.0
+      },
+      {
+        "eve": 0.2,
+        "mean": 0.057898474085187356,
+        "std": 0.028659496310600257,
+        "detect_rate": 0.2
+      },
+      {
+        "eve": 0.3,
+        "mean": 0.0763299912122127,
+        "std": 0.027819457934810565,
+        "detect_rate": 0.5333333333333333
+      },
+      {
+        "eve": 0.4,
+        "mean": 0.10227397605636503,
+        "std": 0.03943542450489291,
+        "detect_rate": 0.6333333333333333
+      },
+      {
+        "eve": 0.5,
+        "mean": 0.13747727178935046,
+        "std": 0.031550796907023226,
+        "detect_rate": 1.0
+      },
+      {
+        "eve": 0.6,
+        "mean": 0.15721398250178628,
+        "std": 0.04336399771759189,
+        "detect_rate": 0.9333333333333333
+      },
+      {
+        "eve": 0.8,
+        "mean": 0.2085614883117799,
+        "std": 0.051433187635203485,
+        "detect_rate": 1.0
+      },
+      {
+        "eve": 1.0,
+        "mean": 0.2454345533673499,
+        "std": 0.045500275385604624,
+        "detect_rate": 1.0
+      }
+    ],
+    "sessions_per_point": 30,
+    "noise": 0.01
+  },
+  "e4_transfer": {
+    "adaptive": {
+      "trials": [
+        {
+          "link": "Alice-R1",
+          "attack_frame": 1,
+          "delivered": true,
+          "verified": true,
+          "reroutes": 1,
+          "aborts": 1,
+          "qubits": 36520,
+          "seconds": 11.84
+        },
+        {
+          "link": "R1-Bob",
+          "attack_frame": 2,
+          "delivered": true,
+          "verified": true,
+          "reroutes": 1,
+          "aborts": 1,
+          "qubits": 35856,
+          "seconds": 11.75
+        },
+        {
+          "link": "Alice-R1",
+          "attack_frame": 5,
+          "delivered": true,
+          "verified": true,
+          "reroutes": 1,
+          "aborts": 1,
+          "qubits": 33200,
+          "seconds": 11.18
+        },
+        {
+          "link": "R1-Bob",
+          "attack_frame": 3,
+          "delivered": true,
+          "verified": true,
+          "reroutes": 1,
+          "aborts": 1,
+          "qubits": 36520,
+          "seconds": 13.84
+        },
+        {
+          "link": "Alice-R1",
+          "attack_frame": 4,
+          "delivered": true,
+          "verified": true,
+          "reroutes": 1,
+          "aborts": 1,
+          "qubits": 29880,
+          "seconds": 11.68
+        },
+        {
+          "link": "R1-Bob",
+          "attack_frame": 2,
+          "delivered": true,
+          "verified": true,
+          "reroutes": 1,
+          "aborts": 1,
+          "qubits": 35856,
+          "seconds": 13.1
+        },
+        {
+          "link": "Alice-R1",
+          "attack_frame": 5,
+          "delivered": true,
+          "verified": true,
+          "reroutes": 1,
+          "aborts": 1,
+          "qubits": 32536,
+          "seconds": 11.2
+        },
+        {
+          "link": "R1-Bob",
+          "attack_frame": 5,
+          "delivered": true,
+          "verified": true,
+          "reroutes": 1,
+          "aborts": 1,
+          "qubits": 30544,
+          "seconds": 9.9
+        }
+      ],
+      "verified": 8,
+      "n": 8
+    },
+    "static": {
+      "trials": [
+        {
+          "link": "Alice-R1",
+          "attack_frame": 1,
+          "delivered": false,
+          "verified": false,
+          "reroutes": 0,
+          "aborts": 1,
+          "qubits": 1992,
+          "seconds": 0.62
+        },
+        {
+          "link": "R1-Bob",
+          "attack_frame": 2,
+          "delivered": false,
+          "verified": false,
+          "reroutes": 0,
+          "aborts": 1,
+          "qubits": 3984,
+          "seconds": 1.27
+        },
+        {
+          "link": "Alice-R1",
+          "attack_frame": 5,
+          "delivered": false,
+          "verified": false,
+          "reroutes": 0,
+          "aborts": 1,
+          "qubits": 7968,
+          "seconds": 2.52
+        },
+        {
+          "link": "R1-Bob",
+          "attack_frame": 3,
+          "delivered": false,
+          "verified": false,
+          "reroutes": 0,
+          "aborts": 1,
+          "qubits": 5976,
+          "seconds": 1.97
+        },
+        {
+          "link": "Alice-R1",
+          "attack_frame": 4,
+          "delivered": false,
+          "verified": false,
+          "reroutes": 0,
+          "aborts": 1,
+          "qubits": 5976,
+          "seconds": 2.08
+        },
+        {
+          "link": "R1-Bob",
+          "attack_frame": 2,
+          "delivered": false,
+          "verified": false,
+          "reroutes": 0,
+          "aborts": 1,
+          "qubits": 4648,
+          "seconds": 1.57
+        },
+        {
+          "link": "Alice-R1",
+          "attack_frame": 5,
+          "delivered": false,
+          "verified": false,
+          "reroutes": 0,
+          "aborts": 1,
+          "qubits": 9296,
+          "seconds": 3.17
+        },
+        {
+          "link": "R1-Bob",
+          "attack_frame": 5,
+          "delivered": false,
+          "verified": false,
+          "reroutes": 0,
+          "aborts": 1,
+          "qubits": 7968,
+          "seconds": 2.68
+        }
+      ],
+      "verified": 0,
+      "n": 8
+    }
+  },
+  "showcase": {
+    "bytes": 414,
+    "frames": 15,
+    "verified": true,
+    "sha256": "d663937a8cd13d42b013924c1972e40f070cbbefb7ea0b171ce2e08478ae1b94",
+    "aborts": 1,
+    "reroutes": 1,
+    "retransmissions": 6,
+    "qubits": 31872,
+    "seconds": 11.07,
+    "paths": [
+      "Alice > R1 > Bob",
+      "Alice > R1 > R3 > Bob"
+    ],
+    "events": [
+      {
+        "frame": 4,
+        "kind": "abort",
+        "link": "R1-Bob",
+        "qber": 0.24390243902439024,
+        "detail": "ABORT: message never encoded"
+      },
+      {
+        "frame": 4,
+        "kind": "reroute",
+        "link": "R1-Bob",
+        "qber": 0.24390243902439024,
+        "detail": "R1 routes around R1-Bob via R1-R3-Bob"
+      }
+    ]
+  },
+  "e3_invariant": {
+    "aborted_sessions_and_transfers": 176,
+    "message_bits_exposed": 0
+  },
+  "runtime_s": 271.3
+}
